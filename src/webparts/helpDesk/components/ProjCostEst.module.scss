@@ -1,0 +1,13 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.projCostEst {
+  background-color: #FFBE98;
+  padding: 20px;
+  border-radius: 5px;
+  direction: rtl; // Add RTL support
+  .logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100px; // Adjust the size as needed
+  }
+}
